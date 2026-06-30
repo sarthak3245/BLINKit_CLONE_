@@ -1,0 +1,52 @@
+/* Section Header */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.section-header h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #000;
+  margin: 0;
+}
+
+/* See All button */
+.see-all-btn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0c831f;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.see-all-btn:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/* Products Container */
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .product-row {
+    justify-content: center;
+  }
+
+  .section-header h2 {
+    font-size: 20px;
+  }
+}

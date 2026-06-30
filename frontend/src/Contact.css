@@ -1,0 +1,54 @@
+.contact-section {
+  margin-top: 60px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-top: 1px solid #eaeaea;
+}
+
+/* Top layout */
+.contact-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Contact info */
+.contact-info h3,
+.social-media h3 {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.contact-info p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* Footer note */
+.footer-note {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #999;
+}

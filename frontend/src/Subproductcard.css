@@ -1,0 +1,24 @@
+.subproduct-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+/* Image – no extra space */
+.subproduct-card img {
+  display: block;
+  width: 120px;     /* exact image size */
+  height: auto;
+  object-fit: contain;
+}
+
+/* Name below image */
+.subproduct-card span {
+  margin-top: 6px;  /* only required gap */
+  font-size: 14px;
+  font-weight: 800; /* high weight */
+  color: #000;
+  text-align: center;
+}
